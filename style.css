@@ -1,0 +1,43 @@
+ * {
+    box-sizing: border-box;
+ }
+
+  body {
+    margin : 0px;
+    padding : 0px;
+  }
+
+  .opt-cont {
+    height : 3.5rem;
+    width : 3.5rem;
+    background-color: aqua;
+    position : absolute;
+    top : 2rem;
+    left : 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: x-large;
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ }
+ 
+ 
+  .tool-cont {
+    display : flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 5rem;
+    width : 40vw;
+    position: absolute;
+    top: 1rem;
+    left : 30vw;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .tool-cont > * {
+    display: block;
+    width : 3rem;
+  }
