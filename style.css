@@ -122,3 +122,15 @@
     left : 5px;
     cursor: pointer;
   }
+  .upload-cont{
+    height : 15rem;
+  }
+  .head{
+    height: 1rem;
+    width : 16rem;
+    background-color: orange;
+  }
+  .notes{
+    height: calc(100% - 1rem);
+    width : 16rem;
+  }
