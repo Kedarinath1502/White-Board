@@ -125,6 +125,7 @@
   .upload-cont{
     height : 15rem;
     position: absolute;
+    display: none;
     top : 50vh;
     left : 20vw;
   }
